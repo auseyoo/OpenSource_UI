@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a:hover, a:active {
+  cursor: pointer; }
+
+.content {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center; }
+  .content .depth1 {
+    width: 480px;
+    height: 60px;
+    line-height: 60px;
+    background: #ff6162; }
+    .content .depth1 li {
+      position: relative;
+      float: left;
+      margin: 0 auto;
+      padding: 0 20px;
+      color: #fff; }
+      .content .depth1 li .depth2 {
+        display: none;
+        overflow: hidden;
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        background: #ff6162;
+        text-align: center; }
+        .content .depth1 li .depth2 li {
+          float: none;
+          width: 145px;
+          line-height: 50px;
+          color: #cf3c3d;
+          border-top: 1px solid #cf3c3d;
+          text-align: left; }
+        .content .depth1 li .depth2 li:active, .content .depth1 li .depth2 li:hover {
+          color: #fff;
+          background: #ff6162; }
+      .content .depth1 li .depth2.active {
+        display: block; }
+    .content .depth1 li:active, .content .depth1 li:hover {
+      background: #f15253; }
+
+/*# sourceMappingURL=style.css.map */
